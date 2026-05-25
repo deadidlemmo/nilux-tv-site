@@ -3,9 +3,9 @@ main = "src/index.mjs"
 compatibility_date = "2024-11-18"
 
 [vars]
-PUBLIC_SITE_URL = "https://seu-site.pages.dev"
+PUBLIC_SITE_URL = "https://nilux-tv-site.pages.dev"
 WORKER_PUBLIC_URL = "https://nilux-payments.niluxtv.workers.dev"
-ALLOWED_ORIGIN = "https://seu-site.pages.dev"
+ALLOWED_ORIGIN = "https://nilux-tv-site.pages.dev"
 
 [[d1_databases]]
 binding = "DB"
