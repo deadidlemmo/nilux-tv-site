@@ -1,0 +1,279 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Escolha seu plano NILUX TV, revise o pedido e finalize o pagamento com segurança."
+    />
+    <meta name="theme-color" content="#05070c" />
+    <meta property="og:title" content="NILUX TV | Primeira compra" />
+    <meta property="og:image" content="img/nilux-tv-logo.png" />
+    <meta
+      property="og:description"
+      content="Planos mensais, trimestrais, semestrais e anuais com pagamento seguro."
+    />
+    <meta property="og:type" content="website" />
+    <title>NILUX TV | Primeira compra</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#planos">Ir para os planos</a>
+
+    <header class="site-header" aria-label="Topo da página">
+      <nav class="nav">
+        <a class="brand" href="#topo" aria-label="NILUX TV">
+          <img class="brand-logo" src="img/nilux-tv-logo.png" alt="" />
+          <span>
+            <strong>NILUX TV</strong>
+            <small>IPTV Premium</small>
+          </span>
+        </a>
+
+        <div class="nav-actions">
+          <a href="#planos">Planos</a>
+          <a href="#duvidas">Dúvidas</a>
+          <a class="whatsapp-link" href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">
+            WhatsApp
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="topo">
+      <section class="checkout-section" id="planos" aria-labelledby="plans-title">
+        <div class="page-title">
+          <div>
+            <span class="section-label">Primeira compra</span>
+            <h1 id="plans-title">Comprar acesso NILUX TV</h1>
+            <p>
+              Selecione o tipo de acesso, escolha a duração e finalize pelo botão de pagamento.
+              Após a confirmação, o atendimento envia os dados de ativação pelo WhatsApp.
+            </p>
+          </div>
+
+          <dl class="quick-info" aria-label="Informações principais">
+            <div>
+              <dt>Ativação</dt>
+              <dd>Após confirmação</dd>
+            </div>
+            <div>
+              <dt>Pagamento</dt>
+              <dd>Pix e cartão</dd>
+            </div>
+            <div>
+              <dt>Suporte</dt>
+              <dd>WhatsApp</dd>
+            </div>
+          </dl>
+        </div>
+
+        <div class="checkout-grid">
+          <section class="plans-panel" aria-label="Escolha do plano">
+            <div class="panel-heading">
+              <h2>1. Tipo de plano</h2>
+              <p>Escolha se deseja incluir conteúdo adulto.</p>
+            </div>
+
+            <div class="billing-toggle" role="tablist" aria-label="Tipo de conteúdo">
+              <button class="is-active" type="button" data-plan-type="padrao" aria-pressed="true">
+                <strong>Padrão</strong>
+                <span>Sem conteúdo adulto</span>
+              </button>
+              <button type="button" data-plan-type="adulto" aria-pressed="false">
+                <strong>Adulto incluso</strong>
+                <span>Com conteúdo adulto</span>
+              </button>
+            </div>
+
+            <div class="panel-heading panel-heading-inline">
+              <h2>2. Duração</h2>
+              <p>Todos os planos abaixo são para 1 dispositivo simultâneo.</p>
+            </div>
+
+            <div class="plan-list">
+              <article class="plan-card is-selected" data-plan-id="mensal" tabindex="0">
+                <div class="plan-main">
+                  <span class="radio-dot" aria-hidden="true"></span>
+                  <div>
+                    <h3>1 mês</h3>
+                    <p>Acesso por 30 dias.</p>
+                  </div>
+                </div>
+                <strong>R$ 25,00</strong>
+              </article>
+
+              <article class="plan-card" data-plan-id="trimestral" tabindex="0">
+                <div class="plan-main">
+                  <span class="radio-dot" aria-hidden="true"></span>
+                  <div>
+                    <h3>3 meses</h3>
+                    <p>Acesso por 90 dias.</p>
+                  </div>
+                </div>
+                <strong>R$ 70,00</strong>
+              </article>
+
+              <article class="plan-card" data-plan-id="semestral" tabindex="0">
+                <div class="plan-main">
+                  <span class="radio-dot" aria-hidden="true"></span>
+                  <div>
+                    <h3>6 meses</h3>
+                    <p>Acesso por 180 dias.</p>
+                  </div>
+                </div>
+                <strong>R$ 130,00</strong>
+              </article>
+
+              <article class="plan-card" data-plan-id="anual" tabindex="0">
+                <div class="plan-main">
+                  <span class="radio-dot" aria-hidden="true"></span>
+                  <div>
+                    <h3>12 meses</h3>
+                    <p>Acesso anual.</p>
+                  </div>
+                </div>
+                <strong>R$ 220,00</strong>
+              </article>
+            </div>
+          </section>
+
+          <aside class="summary-card" aria-labelledby="summary-title">
+            <div class="panel-heading">
+              <h2 id="summary-title">3. Pagamento</h2>
+              <p>Revise o pedido antes de prosseguir.</p>
+            </div>
+
+            <div class="buyer-fields" aria-label="Dados para ativação">
+              <label>
+                Nome
+                <input id="customer-name" autocomplete="name" name="name" placeholder="Nome do cliente" required />
+              </label>
+              <label>
+                WhatsApp
+                <input
+                  id="customer-whatsapp"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  name="whatsapp"
+                  placeholder="(00) 00000-0000"
+                  required
+                />
+              </label>
+              <label>
+                E-mail
+                <input id="customer-email" autocomplete="email" inputmode="email" name="email" placeholder="opcional" />
+              </label>
+            </div>
+
+            <dl class="summary-list">
+              <div>
+                <dt>Plano</dt>
+                <dd id="summary-plan">1 mês</dd>
+              </div>
+              <div>
+                <dt>Tipo</dt>
+                <dd id="summary-type">Padrão</dd>
+              </div>
+              <div>
+                <dt>Dispositivos</dt>
+                <dd>1 simultâneo</dd>
+              </div>
+              <div class="summary-total">
+                <dt>Total</dt>
+                <dd id="summary-price">R$ 25,00</dd>
+              </div>
+            </dl>
+
+            <div class="notice">
+              <strong>Após o pagamento</strong>
+              <span>Envie o comprovante ou aguarde a confirmação pelo WhatsApp informado.</span>
+            </div>
+
+            <a
+              class="button button-pay"
+              id="payment-button"
+              href="#"
+              data-payment-ready="false"
+              rel="noreferrer"
+            >
+              Pagar agora
+            </a>
+
+            <p class="payment-help">
+              Configure o endpoint no arquivo <code>config.js</code>.
+            </p>
+          </aside>
+        </div>
+      </section>
+
+      <section class="info-band" aria-label="Como funciona">
+        <article>
+          <h2>Como recebe o acesso?</h2>
+          <p>Depois da confirmação, o atendimento envia usuário, senha e instruções de configuração.</p>
+        </article>
+        <article>
+          <h2>Em quais aparelhos funciona?</h2>
+          <p>Smart TV, TV Box, celular, tablet e computador, conforme o aplicativo indicado no atendimento.</p>
+        </article>
+        <article>
+          <h2>Precisa de ajuda?</h2>
+          <p>O suporte pelo WhatsApp ajuda na instalação e na primeira configuração do aplicativo.</p>
+        </article>
+      </section>
+
+      <section class="faq" id="duvidas" aria-labelledby="faq-title">
+        <div class="section-heading">
+          <span class="section-label">Antes de comprar</span>
+          <h2 id="faq-title">Dúvidas frequentes</h2>
+        </div>
+
+        <div class="faq-list">
+          <details>
+            <summary>Quando recebo os dados de acesso?</summary>
+            <p>Após a confirmação do pagamento, o atendimento envia as instruções pelo WhatsApp cadastrado.</p>
+          </details>
+          <details>
+            <summary>Posso trocar de aparelho?</summary>
+            <p>Sim, desde que respeite o limite de dispositivos simultâneos do plano contratado.</p>
+          </details>
+          <details>
+            <summary>Como funciona o pagamento?</summary>
+            <p>O botão de pagamento pode apontar para Mercado Pago, Stripe, PayPal ou outro checkout hospedado.</p>
+          </details>
+          <details>
+            <summary>O conteúdo é autorizado?</summary>
+            <p>Use esta página apenas para serviços e conteúdos que você tem direito de comercializar e distribuir.</p>
+          </details>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="current-year"></span> NILUX TV. Todos os direitos reservados.</p>
+      <a href="https://wa.me/5500000000000" target="_blank" rel="noreferrer">Atendimento pelo WhatsApp</a>
+    </footer>
+
+    <div class="mobile-pay-bar" aria-label="Resumo rápido do pagamento">
+      <div>
+        <span id="mobile-summary-plan">1 mês</span>
+        <strong id="mobile-summary-price">R$ 25,00</strong>
+      </div>
+      <a
+        class="button button-pay"
+        id="mobile-payment-button"
+        href="#"
+        data-payment-ready="false"
+        rel="noreferrer"
+      >
+        Pagar
+      </a>
+    </div>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

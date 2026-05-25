@@ -1,0 +1,13 @@
+name = "nilux-payments"
+main = "src/index.mjs"
+compatibility_date = "2024-11-18"
+
+[vars]
+PUBLIC_SITE_URL = "https://seu-site.pages.dev"
+WORKER_PUBLIC_URL = "https://nilux-payments.niluxtv.workers.dev"
+ALLOWED_ORIGIN = "https://seu-site.pages.dev"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nilux_payments"
+database_id = "b293c7da-a1d2-489a-a093-62b68bf93476"
