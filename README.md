@@ -1,6 +1,14 @@
-# Página de primeira compra IPTV
+# Nilux TV — página de planos e checkout
 
-Página estática de uma tela para venda de planos IPTV com seleção de plano, resumo do pedido e botões de pagamento.
+Uma página de compra direta: a pessoa escolhe o plano, confere o pedido e segue para o pagamento. O frontend é estático; a integração opcional com Cloudflare Worker concentra o checkout, o webhook e as notificações.
+
+[Fluxo de pagamento](#como-configurar-os-pagamentos) · [Backend](#backend) · [Publicação](#como-publicar-de-graça) · [Arquivos](#arquivos)
+
+| Experiência | Implementação |
+| --- | --- |
+| Seleção de planos, resumo e páginas de retorno do pagamento | HTML, CSS e JavaScript no site; Worker, Mercado Pago e D1 no fluxo por API |
+
+> Configure as credenciais somente no Worker. O repositório traz exemplos de configuração; o checkout depende da sua própria implantação e das suas credenciais.
 
 ## Como configurar os pagamentos
 
